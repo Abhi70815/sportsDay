@@ -52,7 +52,7 @@ const sportsDay = {
     // Simulate the high jump event and update scores accordingly
     HighJump: function(scores, callback) {
         setTimeout(() => {
-        
+    
             const userInput = prompt("Enter the color of the highest jump (Red, Blue, or Green): ");
             const colors = ["Red", "Blue", "Green"];
             if (colors.includes(userInput)) {
