@@ -54,7 +54,6 @@ const sportsDay = {
         setTimeout(() => {
         
             const userInput = prompt("Enter the color of the highest jump (Red, Blue, or Green): ");
-            document.getElementById("event-log").innerHTML += `<p class="event-log-entry">${prompt}</p>`;
             const colors = ["Red", "Blue", "Green"];
             if (colors.includes(userInput)) {
                 scores[`athlete${colors.indexOf(userInput) + 1}`] += 10;
