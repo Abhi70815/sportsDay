@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#event-log {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.event-log-entry {
+    margin-bottom: 10px;
+}
+
+.event-log-entry span {
+    font-weight: bold;
+}
